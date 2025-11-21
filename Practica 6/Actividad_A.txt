@@ -1,0 +1,7 @@
+1. ¿Por qué en la cola circular no se desperdician posiciones como en la cola lineal?
+  Porque el elemento final siempre será también el primero.
+
+2. ¿Qué pasa cuando el índice final llega al final del arreglo?
+  Avanza a la cabeza y vuelve a comenzar.
+3. ¿Qué sucede si intentas encolar cuando la cola está llena?
+  No se realiza ninguna operación, y adicionalmente indica que la cola está llena.
