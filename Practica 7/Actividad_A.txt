@@ -1,0 +1,7 @@
+1. ¿Por qué las listas enlazadas no requieren tamaño fijo como los arreglos?
+  Las listas enlazadas crecen o disminuyen dinámicamente porque cada nodo se asigna de forma independiente
+  y solo requiere ajustar punteros, no reservar memoria fija.
+
+2. ¿Qué diferencia hay entre mover la cabeza y modificar los punteros internos?
+  Mover la cabeza solo cambia a qué nodo apunta el puntero principal;
+  modificar punteros internos cambia la estructura de la lista, conectando o desconectando nodos.
