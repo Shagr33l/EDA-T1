@@ -1,0 +1,17 @@
+1. ¿Qué diferencia tiene el deque frente a la cola circular normal?
+  El deque es una estructura más general y potente que la cola circular, 
+  porque ofrece operaciones en ambos extremos.
+
+2. ¿Qué operaciones permiten simular tanto FIFO como LIFO?
+  Para FIFO:
+    push_back(), pop_front()
+
+  Para LIFO:
+    push_back(), pop_back()
+
+3. Investiga que aplicaciones prácticas tiene deque.
+  Historial de navegador.
+  Planificación de procesos.
+  Simulaciones de buffers.
+  Implementación de BFS/DFS.
+  Sistemas de deshacer/rehacer (UNDO/REDO).
