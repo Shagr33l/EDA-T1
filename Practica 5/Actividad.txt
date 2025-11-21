@@ -1,0 +1,8 @@
+1. ¿Qué diferencias notaron entre el orden de salida de la pila y de la cola?
+  LIFO y FIFO, en una pila (LIFO) el último elemento en integrarse es el primero en salir,
+  y en la cola (FIFO) el primero que entra es también el primero que sale. 
+2. ¿Qué sucede si intentan hacer pop en una pila vacía o dequeue en una cola vacía?
+  Ambas opciones no realizan ninguna operación, por lo que se mostrará "pila" o "cola" vacías.
+3. ¿Qué sucede si intentan insertar más elementos que la capacidad máxima?
+  En ambos casos se muestra un mensaje indicando que la capacidad máxima está ocupada, y
+  no realiza ninguna operación.
