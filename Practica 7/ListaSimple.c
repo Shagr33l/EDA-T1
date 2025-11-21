@@ -85,12 +85,5 @@ int main() {
 
     liberar(cabeza);
 
-    // Preguntas y respuestas
-    printf("\n--- Preguntas (Lista Simple) ---\n");
-    printf("1. ¿Por qué las listas enlazadas no requieren tamaño fijo?\n");
-    printf("   Porque cada nodo se crea dinámicamente con malloc(), no se reserva memoria fija como en los arreglos.\n");
-    printf("2. ¿Qué diferencia hay entre mover la cabeza y modificar los punteros internos?\n");
-    printf("   Mover la cabeza cambia el inicio de la lista, mientras que modificar punteros internos ajusta conexiones entre nodos intermedios.\n");
-
     return 0;
 }
